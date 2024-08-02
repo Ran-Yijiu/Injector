@@ -38,7 +38,7 @@ public static partial class Inject
         nint lpStartAddress, nint lpParameter, uint dwCreationFlags, nint lpThreadId);
     
     private static string Path => Environment.ExpandEnvironmentVariables("%temp%\\Prax.dll");
-    private const string Url = "https://github.com/Prax-Client/Releases/releases/latest/download/Prax.dll";
+    private const string Url = "https://github.moeyy.xyz/https://github.com/Prax-Client/Releases/releases/latest/download/Prax.dll";
 
     public static async Task<bool> CheckHash(string filePath)
     {
